@@ -974,7 +974,9 @@
     #art-sprites {
       position: absolute !important;
       top: 0;
-      bottom: 54vh;   /* 下 54vh 留给 history(180px)+对话框(160px)+选项(100px)+controls(100px) */
+      /* 立绘区域覆盖到控制栏之上（约 22vh），让立绘又大又完整；
+         对话框半透明覆盖在立绘腰部，形成 VN 经典"人物从对话框后浮现"效果 */
+      bottom: 22vh;
       left: 0;
       right: 0;
       z-index: 6;
@@ -982,10 +984,10 @@
     }
     .char-sprite {
       height: 100%;              /* 铺满这个固定区域 */
-      max-width: 44%;
+      max-width: 48%;            /* 宽度上限放宽 4%，让人物更饱满 */
       bottom: 0;
       top: auto;
-      filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
+      filter: drop-shadow(0 0 12px rgba(0,0,0,0.7));
     }
     /* img 按容器高度缩放，对齐底部 */
     .char-sprite img {
@@ -998,7 +1000,7 @@
     .char-sprite.slot-right  { right: 0; }
     .char-sprite.slot-center { left: 50%; }
     .char-sprite.dim {
-      filter: drop-shadow(0 0 10px rgba(0,0,0,0.6)) brightness(0.55) saturate(0.6);
+      filter: drop-shadow(0 0 12px rgba(0,0,0,0.7)) brightness(0.55) saturate(0.6);
     }
     /* 场景指示条在移动端更扁平 */
     #scene-indicator { padding: 5px 12px; font-size: 11px; letter-spacing: 1px; }
