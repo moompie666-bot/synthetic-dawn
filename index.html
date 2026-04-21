@@ -953,16 +953,46 @@
     /* ─── 舞台 / 对话框 / 选项 ─── */
     #stage-body { padding: 10px 10px calc(8px + var(--safe-bottom)) 10px; }
 
-    /* 立绘：手机竖屏
-       - 容器高度放到 stage 的 80%（小于等于 stage 可视高，不会顶出）
-       - 宽度限制避免两人挤满
-       - bottom:0 贴底（脚底落在 controls 后面），对话框覆盖住腰部以下
-       - img 继承桌面的 height:100%; width:auto，按容器高度等比缩放 */
-    .char-sprite {
-      height: 80%;
-      max-width: 42%;
+    /* 【移动端美术层修复 v4 —— 整个美术层固定到 viewport】
+       原因：#stage 的 flex 布局在手机上会让 #art-layer（absolute inset:0）的大小
+       跟着 stage 实际高度变化，但手机端因为 dialogue-box/choices/history 撑开
+       stage-body，导致立绘和背景图的渲染区域缩到屏幕下半段，上半屏黑色。
+       方案：把整个 #art-layer（含 bg/cg/sprites/vignette）fixed 到 viewport，
+       强制覆盖 "顶栏下 ~ 屏幕底"，立绘在顶栏下 ~ 50vh 的固定区域内贴底。 */
+    #art-layer {
+      position: fixed !important;
+      top: calc(48px + var(--safe-top));
+      left: 0;
+      right: 0;
       bottom: 0;
+      z-index: 0;
+    }
+    #art-bg, #art-cg, #art-vignette, #art-scanlines {
+      position: absolute;
+      inset: 0;
+    }
+    #art-sprites {
+      position: absolute !important;
+      top: 0;
+      bottom: 54vh;   /* 下 54vh 留给 history(180px)+对话框(160px)+选项(100px)+controls(100px) */
+      left: 0;
+      right: 0;
+      z-index: 6;
+      pointer-events: none;
+    }
+    .char-sprite {
+      height: 100%;              /* 铺满这个固定区域 */
+      max-width: 44%;
+      bottom: 0;
+      top: auto;
       filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
+    }
+    /* img 按容器高度缩放，对齐底部 */
+    .char-sprite img {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+      object-position: bottom center;
     }
     .char-sprite.slot-left   { left: 0; }
     .char-sprite.slot-right  { right: 0; }
@@ -1093,7 +1123,16 @@
     #controls button { padding: 6px 8px; min-height: 36px; font-size: 11px; }
     .choice-card { min-height: 44px; padding: 10px 14px; }
     #sidebar { top: calc(40px + var(--safe-top)); }
-    /* 横屏：立绘按高度约束回到桌面式站位 */
+    /* 横屏：恢复桌面式布局（art-layer/art-sprites 不 fixed） */
+    #art-layer {
+      position: absolute !important;
+      top: 0 !important;
+    }
+    #art-sprites {
+      position: absolute !important;
+      top: 0;
+      bottom: 0;
+    }
     .char-sprite {
       height: 88%;
       max-width: 38%;
