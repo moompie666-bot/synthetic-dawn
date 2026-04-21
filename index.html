@@ -953,20 +953,20 @@
     /* ─── 舞台 / 对话框 / 选项 ─── */
     #stage-body { padding: 10px 10px calc(8px + var(--safe-bottom)) 10px; }
 
-    /* 立绘：手机竖屏下收缩到"人物上半身浮在场景标签下方"的效果，不遮对话框 */
+    /* 立绘：手机竖屏
+       - 容器高度放到 stage 的 80%（小于等于 stage 可视高，不会顶出）
+       - 宽度限制避免两人挤满
+       - bottom:0 贴底（脚底落在 controls 后面），对话框覆盖住腰部以下
+       - img 继承桌面的 height:100%; width:auto，按容器高度等比缩放 */
     .char-sprite {
-      /* 高度占视口 55%，宽度收紧，避免占满屏幕 */
-      height: 55vh;
-      max-width: 46%;
-      /* 脚底抬高到对话框之上：对话框 + 控制栏约占 38vh */
-      bottom: 38vh;
-      /* drop-shadow 缩小，减少移动端 GPU 压力 */
+      height: 80%;
+      max-width: 42%;
+      bottom: 0;
       filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
     }
     .char-sprite.slot-left   { left: 0; }
     .char-sprite.slot-right  { right: 0; }
     .char-sprite.slot-center { left: 50%; }
-    /* 失焦时的 filter 也覆盖一下，保持移动端阴影体量一致 */
     .char-sprite.dim {
       filter: drop-shadow(0 0 10px rgba(0,0,0,0.6)) brightness(0.55) saturate(0.6);
     }
@@ -1074,11 +1074,9 @@
     .dialogue-box { padding: 12px 12px 14px 12px; font-size: calc(14px * var(--font-scale)); }
     .choice-card { font-size: calc(14px * var(--font-scale)); min-height: 48px; padding: 12px 14px; }
     #controls button { padding: 8px 6px; font-size: 11px; min-height: 40px; letter-spacing: 0.5px; }
-    /* 立绘再收一档，避免 iPhone SE / 小米小屏机遮挡 */
+    /* 极窄屏：立绘继续按宽度收紧 */
     .char-sprite {
-      height: 48vh;
-      max-width: 52%;
-      bottom: 40vh;
+      max-width: 50%;
     }
   }
 
@@ -1095,11 +1093,10 @@
     #controls button { padding: 6px 8px; min-height: 36px; font-size: 11px; }
     .choice-card { min-height: 44px; padding: 10px 14px; }
     #sidebar { top: calc(40px + var(--safe-top)); }
-    /* 横屏：立绘恢复高度、降低抬升量（对话框矮），回到桌面式站位 */
+    /* 横屏：立绘按高度约束回到桌面式站位 */
     .char-sprite {
-      height: 82%;
+      height: 88%;
       max-width: 38%;
-      bottom: 0;
     }
     .char-sprite.slot-left  { left: 3%; }
     .char-sprite.slot-right { right: 3%; }
