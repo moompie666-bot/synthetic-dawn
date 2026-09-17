@@ -1,0 +1,506 @@
+{
+  "game/images/bg/bg_alley_night.png": {
+    "desktop": "game/webp/bg/bg_alley_night.webp",
+    "mobile": "game/webp/bg/bg_alley_night.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 129010,
+    "mobileBytes": 58024
+  },
+  "game/images/bg/bg_alley_rain.png": {
+    "desktop": "game/webp/bg/bg_alley_rain.webp",
+    "mobile": "game/webp/bg/bg_alley_rain.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 200648,
+    "mobileBytes": 77656
+  },
+  "game/images/bg/bg_apartment_aria_day.png": {
+    "desktop": "game/webp/bg/bg_apartment_aria_day.webp",
+    "mobile": "game/webp/bg/bg_apartment_aria_day.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 136766,
+    "mobileBytes": 51494
+  },
+  "game/images/bg/bg_apartment_aria_night.png": {
+    "desktop": "game/webp/bg/bg_apartment_aria_night.webp",
+    "mobile": "game/webp/bg/bg_apartment_aria_night.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 62608,
+    "mobileBytes": 30970
+  },
+  "game/images/bg/bg_bar_dim.png": {
+    "desktop": "game/webp/bg/bg_bar_dim.webp",
+    "mobile": "game/webp/bg/bg_bar_dim.mobile.webp",
+    "width": 1600,
+    "height": 899,
+    "bytes": 171832,
+    "mobileBytes": 63598
+  },
+  "game/images/bg/bg_city_day.png": {
+    "desktop": "game/webp/bg/bg_city_day.webp",
+    "mobile": "game/webp/bg/bg_city_day.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 240088,
+    "mobileBytes": 99622
+  },
+  "game/images/bg/bg_city_night.png": {
+    "desktop": "game/webp/bg/bg_city_night.webp",
+    "mobile": "game/webp/bg/bg_city_night.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 176708,
+    "mobileBytes": 75556
+  },
+  "game/images/bg/bg_hideout_night.png": {
+    "desktop": "game/webp/bg/bg_hideout_night.webp",
+    "mobile": "game/webp/bg/bg_hideout_night.mobile.webp",
+    "width": 1600,
+    "height": 899,
+    "bytes": 191282,
+    "mobileBytes": 66178
+  },
+  "game/images/bg/bg_lab_bright.png": {
+    "desktop": "game/webp/bg/bg_lab_bright.webp",
+    "mobile": "game/webp/bg/bg_lab_bright.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 128616,
+    "mobileBytes": 57580
+  },
+  "game/images/bg/bg_lab_dark.png": {
+    "desktop": "game/webp/bg/bg_lab_dark.webp",
+    "mobile": "game/webp/bg/bg_lab_dark.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 128350,
+    "mobileBytes": 47776
+  },
+  "game/images/bg/bg_memory.png": {
+    "desktop": "game/webp/bg/bg_memory.webp",
+    "mobile": "game/webp/bg/bg_memory.mobile.webp",
+    "width": 1600,
+    "height": 899,
+    "bytes": 135036,
+    "mobileBytes": 44970
+  },
+  "game/images/bg/bg_office_zhao_dark.png": {
+    "desktop": "game/webp/bg/bg_office_zhao_dark.webp",
+    "mobile": "game/webp/bg/bg_office_zhao_dark.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 95064,
+    "mobileBytes": 36440
+  },
+  "game/images/bg/bg_office_zhao_night.png": {
+    "desktop": "game/webp/bg/bg_office_zhao_night.webp",
+    "mobile": "game/webp/bg/bg_office_zhao_night.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 72246,
+    "mobileBytes": 33256
+  },
+  "game/images/bg/bg_plaza_protest_dawn.png": {
+    "desktop": "game/webp/bg/bg_plaza_protest_dawn.webp",
+    "mobile": "game/webp/bg/bg_plaza_protest_dawn.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 137506,
+    "mobileBytes": 59830
+  },
+  "game/images/bg/bg_rooftop_night.png": {
+    "desktop": "game/webp/bg/bg_rooftop_night.webp",
+    "mobile": "game/webp/bg/bg_rooftop_night.mobile.webp",
+    "width": 1600,
+    "height": 899,
+    "bytes": 183686,
+    "mobileBytes": 61914
+  },
+  "game/images/bg/bg_safehouse_night.png": {
+    "desktop": "game/webp/bg/bg_safehouse_night.webp",
+    "mobile": "game/webp/bg/bg_safehouse_night.mobile.webp",
+    "width": 1600,
+    "height": 899,
+    "bytes": 158444,
+    "mobileBytes": 56708
+  },
+  "game/images/bg/bg_underground_bar_night.png": {
+    "desktop": "game/webp/bg/bg_underground_bar_night.webp",
+    "mobile": "game/webp/bg/bg_underground_bar_night.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 162324,
+    "mobileBytes": 69480
+  },
+  "game/images/cg/cg_badend_reclaim.png": {
+    "desktop": "game/webp/cg/cg_badend_reclaim.webp",
+    "mobile": "game/webp/cg/cg_badend_reclaim.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 152032,
+    "mobileBytes": 58916
+  },
+  "game/images/cg/cg_ch01_01_awakening.png": {
+    "desktop": "game/webp/cg/cg_ch01_01_awakening.webp",
+    "mobile": "game/webp/cg/cg_ch01_01_awakening.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 70936,
+    "mobileBytes": 33404
+  },
+  "game/images/cg/cg_ch01_02_city_first.png": {
+    "desktop": "game/webp/cg/cg_ch01_02_city_first.webp",
+    "mobile": "game/webp/cg/cg_ch01_02_city_first.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 190686,
+    "mobileBytes": 85082
+  },
+  "game/images/cg/cg_ch01_03_encounter.png": {
+    "desktop": "game/webp/cg/cg_ch01_03_encounter.webp",
+    "mobile": "game/webp/cg/cg_ch01_03_encounter.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 188154,
+    "mobileBytes": 86338
+  },
+  "game/images/cg/cg_ch01_04_choice.png": {
+    "desktop": "game/webp/cg/cg_ch01_04_choice.webp",
+    "mobile": "game/webp/cg/cg_ch01_04_choice.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 139654,
+    "mobileBytes": 61482
+  },
+  "game/images/cg/cg_ch01_05_bar.png": {
+    "desktop": "game/webp/cg/cg_ch01_05_bar.webp",
+    "mobile": "game/webp/cg/cg_ch01_05_bar.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 108022,
+    "mobileBytes": 49468
+  },
+  "game/images/cg/cg_ch01_05_witness_reclaim.png": {
+    "desktop": "game/webp/cg/cg_ch01_05_witness_reclaim.webp",
+    "mobile": "game/webp/cg/cg_ch01_05_witness_reclaim.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 176394,
+    "mobileBytes": 69860
+  },
+  "game/images/cg/cg_ch02_kai_01.png": {
+    "desktop": "game/webp/cg/cg_ch02_kai_01.webp",
+    "mobile": "game/webp/cg/cg_ch02_kai_01.mobile.webp",
+    "width": 1600,
+    "height": 899,
+    "bytes": 217012,
+    "mobileBytes": 75542
+  },
+  "game/images/cg/cg_ch02_kai_02.png": {
+    "desktop": "game/webp/cg/cg_ch02_kai_02.webp",
+    "mobile": "game/webp/cg/cg_ch02_kai_02.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 121950,
+    "mobileBytes": 47714
+  },
+  "game/images/cg/cg_ch02_kai_03.png": {
+    "desktop": "game/webp/cg/cg_ch02_kai_03.webp",
+    "mobile": "game/webp/cg/cg_ch02_kai_03.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 119038,
+    "mobileBytes": 47070
+  },
+  "game/images/cg/cg_ch02_kai_04.png": {
+    "desktop": "game/webp/cg/cg_ch02_kai_04.webp",
+    "mobile": "game/webp/cg/cg_ch02_kai_04.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 170516,
+    "mobileBytes": 70066
+  },
+  "game/images/cg/cg_ch02_kai_05.png": {
+    "desktop": "game/webp/cg/cg_ch02_kai_05.webp",
+    "mobile": "game/webp/cg/cg_ch02_kai_05.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 154346,
+    "mobileBytes": 62898
+  },
+  "game/images/cg/cg_ch02_lyra_01.png": {
+    "desktop": "game/webp/cg/cg_ch02_lyra_01.webp",
+    "mobile": "game/webp/cg/cg_ch02_lyra_01.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 142816,
+    "mobileBytes": 59602
+  },
+  "game/images/cg/cg_ch02_lyra_02.png": {
+    "desktop": "game/webp/cg/cg_ch02_lyra_02.webp",
+    "mobile": "game/webp/cg/cg_ch02_lyra_02.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 174230,
+    "mobileBytes": 69224
+  },
+  "game/images/cg/cg_ch02_lyra_03.png": {
+    "desktop": "game/webp/cg/cg_ch02_lyra_03.webp",
+    "mobile": "game/webp/cg/cg_ch02_lyra_03.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 179146,
+    "mobileBytes": 69712
+  },
+  "game/images/cg/cg_ch02_lyra_04.png": {
+    "desktop": "game/webp/cg/cg_ch02_lyra_04.webp",
+    "mobile": "game/webp/cg/cg_ch02_lyra_04.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 175678,
+    "mobileBytes": 70010
+  },
+  "game/images/cg/cg_ch02_lyra_05.png": {
+    "desktop": "game/webp/cg/cg_ch02_lyra_05.webp",
+    "mobile": "game/webp/cg/cg_ch02_lyra_05.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 92420,
+    "mobileBytes": 34578
+  },
+  "game/images/cg/cg_ch02_wanderer_01.png": {
+    "desktop": "game/webp/cg/cg_ch02_wanderer_01.webp",
+    "mobile": "game/webp/cg/cg_ch02_wanderer_01.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 203214,
+    "mobileBytes": 78506
+  },
+  "game/images/cg/cg_ch02_wanderer_02.png": {
+    "desktop": "game/webp/cg/cg_ch02_wanderer_02.webp",
+    "mobile": "game/webp/cg/cg_ch02_wanderer_02.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 116992,
+    "mobileBytes": 47682
+  },
+  "game/images/cg/cg_ch02_wanderer_03.png": {
+    "desktop": "game/webp/cg/cg_ch02_wanderer_03.webp",
+    "mobile": "game/webp/cg/cg_ch02_wanderer_03.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 166284,
+    "mobileBytes": 66032
+  },
+  "game/images/cg/cg_ch02_wanderer_04.png": {
+    "desktop": "game/webp/cg/cg_ch02_wanderer_04.webp",
+    "mobile": "game/webp/cg/cg_ch02_wanderer_04.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 146854,
+    "mobileBytes": 61342
+  },
+  "game/images/cg/cg_ch02_wanderer_05.png": {
+    "desktop": "game/webp/cg/cg_ch02_wanderer_05.webp",
+    "mobile": "game/webp/cg/cg_ch02_wanderer_05.mobile.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 126308,
+    "mobileBytes": 46352
+  },
+  "game/images/cg/cg_ending_a.png": {
+    "desktop": "game/webp/cg/cg_ending_a.webp",
+    "mobile": "game/webp/cg/cg_ending_a.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 147378,
+    "mobileBytes": 65222
+  },
+  "game/images/cg/cg_ending_b.png": {
+    "desktop": "game/webp/cg/cg_ending_b.webp",
+    "mobile": "game/webp/cg/cg_ending_b.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 240088,
+    "mobileBytes": 99622
+  },
+  "game/images/cg/cg_ending_c.png": {
+    "desktop": "game/webp/cg/cg_ending_c.webp",
+    "mobile": "game/webp/cg/cg_ending_c.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 101542,
+    "mobileBytes": 47054
+  },
+  "game/images/cg/cg_ending_d.png": {
+    "desktop": "game/webp/cg/cg_ending_d.webp",
+    "mobile": "game/webp/cg/cg_ending_d.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 137506,
+    "mobileBytes": 59830
+  },
+  "game/images/cg/cg_ending_e.png": {
+    "desktop": "game/webp/cg/cg_ending_e.webp",
+    "mobile": "game/webp/cg/cg_ending_e.mobile.webp",
+    "width": 1264,
+    "height": 848,
+    "bytes": 127026,
+    "mobileBytes": 54292
+  },
+  "game/images/characters/aria/base_aria_alt.png": {
+    "desktop": "game/webp/characters/aria/base_aria_alt.webp",
+    "mobile": "game/webp/characters/aria/base_aria_alt.mobile.webp",
+    "width": 627,
+    "height": 1100,
+    "bytes": 108988,
+    "mobileBytes": 55986
+  },
+  "game/images/characters/aria/base_aria_default.png": {
+    "desktop": "game/webp/characters/aria/base_aria_default.webp",
+    "mobile": "game/webp/characters/aria/base_aria_default.mobile.webp",
+    "width": 324,
+    "height": 1100,
+    "bytes": 64646,
+    "mobileBytes": 33946
+  },
+  "game/images/characters/aria/base_aria_formal.png": {
+    "desktop": "game/webp/characters/aria/base_aria_formal.webp",
+    "mobile": "game/webp/characters/aria/base_aria_formal.mobile.webp",
+    "width": 353,
+    "height": 1100,
+    "bytes": 47792,
+    "mobileBytes": 24524
+  },
+  "game/images/characters/aria/base_aria_lab.png": {
+    "desktop": "game/webp/characters/aria/base_aria_lab.webp",
+    "mobile": "game/webp/characters/aria/base_aria_lab.mobile.webp",
+    "width": 307,
+    "height": 1100,
+    "bytes": 80046,
+    "mobileBytes": 40204
+  },
+  "game/images/characters/kai/base_kai_alt.png": {
+    "desktop": "game/webp/characters/kai/base_kai_alt.webp",
+    "mobile": "game/webp/characters/kai/base_kai_alt.mobile.webp",
+    "width": 720,
+    "height": 1100,
+    "bytes": 110978,
+    "mobileBytes": 57682
+  },
+  "game/images/characters/kai/base_kai_casual.png": {
+    "desktop": "game/webp/characters/kai/base_kai_casual.webp",
+    "mobile": "game/webp/characters/kai/base_kai_casual.mobile.webp",
+    "width": 373,
+    "height": 1100,
+    "bytes": 81572,
+    "mobileBytes": 42508
+  },
+  "game/images/characters/kai/base_kai_default.png": {
+    "desktop": "game/webp/characters/kai/base_kai_default.webp",
+    "mobile": "game/webp/characters/kai/base_kai_default.mobile.webp",
+    "width": 671,
+    "height": 1100,
+    "bytes": 96360,
+    "mobileBytes": 49818
+  },
+  "game/images/characters/kai/base_kai_wounded.png": {
+    "desktop": "game/webp/characters/kai/base_kai_wounded.webp",
+    "mobile": "game/webp/characters/kai/base_kai_wounded.mobile.webp",
+    "width": 390,
+    "height": 1100,
+    "bytes": 62946,
+    "mobileBytes": 32960
+  },
+  "game/images/characters/lyra/base_lyra_alt.png": {
+    "desktop": "game/webp/characters/lyra/base_lyra_alt.webp",
+    "mobile": "game/webp/characters/lyra/base_lyra_alt.mobile.webp",
+    "width": 595,
+    "height": 1100,
+    "bytes": 104424,
+    "mobileBytes": 54174
+  },
+  "game/images/characters/lyra/base_lyra_bar.png": {
+    "desktop": "game/webp/characters/lyra/base_lyra_bar.webp",
+    "mobile": "game/webp/characters/lyra/base_lyra_bar.mobile.webp",
+    "width": 410,
+    "height": 1100,
+    "bytes": 76310,
+    "mobileBytes": 39356
+  },
+  "game/images/characters/lyra/base_lyra_ceremonial.png": {
+    "desktop": "game/webp/characters/lyra/base_lyra_ceremonial.webp",
+    "mobile": "game/webp/characters/lyra/base_lyra_ceremonial.mobile.webp",
+    "width": 613,
+    "height": 1100,
+    "bytes": 106626,
+    "mobileBytes": 54184
+  },
+  "game/images/characters/lyra/base_lyra_default.png": {
+    "desktop": "game/webp/characters/lyra/base_lyra_default.webp",
+    "mobile": "game/webp/characters/lyra/base_lyra_default.mobile.webp",
+    "width": 458,
+    "height": 1100,
+    "bytes": 105858,
+    "mobileBytes": 53140
+  },
+  "game/images/characters/zhao/base_zhao_alt.png": {
+    "desktop": "game/webp/characters/zhao/base_zhao_alt.webp",
+    "mobile": "game/webp/characters/zhao/base_zhao_alt.mobile.webp",
+    "width": 733,
+    "height": 1100,
+    "bytes": 78466,
+    "mobileBytes": 39876
+  },
+  "game/images/characters/zhao/base_zhao_default.png": {
+    "desktop": "game/webp/characters/zhao/base_zhao_default.webp",
+    "mobile": "game/webp/characters/zhao/base_zhao_default.mobile.webp",
+    "width": 543,
+    "height": 1100,
+    "bytes": 66338,
+    "mobileBytes": 34602
+  },
+  "game/images/characters/zhao/base_zhao_meeting.png": {
+    "desktop": "game/webp/characters/zhao/base_zhao_meeting.webp",
+    "mobile": "game/webp/characters/zhao/base_zhao_meeting.mobile.webp",
+    "width": 423,
+    "height": 1100,
+    "bytes": 61086,
+    "mobileBytes": 32852
+  },
+  "game/images/characters/zhao/base_zhao_offduty.png": {
+    "desktop": "game/webp/characters/zhao/base_zhao_offduty.webp",
+    "mobile": "game/webp/characters/zhao/base_zhao_offduty.mobile.webp",
+    "width": 450,
+    "height": 1100,
+    "bytes": 67276,
+    "mobileBytes": 35140
+  },
+  "game/images/placeholder/ph_bg.png": {
+    "desktop": "game/webp/placeholder/ph_bg.webp",
+    "mobile": "game/webp/placeholder/ph_bg.mobile.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 3028,
+    "mobileBytes": 2304
+  },
+  "game/images/placeholder/ph_cg.png": {
+    "desktop": "game/webp/placeholder/ph_cg.webp",
+    "mobile": "game/webp/placeholder/ph_cg.mobile.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 22012,
+    "mobileBytes": 14846
+  },
+  "game/images/placeholder/ph_character.png": {
+    "desktop": "game/webp/placeholder/ph_character.webp",
+    "mobile": "game/webp/placeholder/ph_character.mobile.webp",
+    "width": 300,
+    "height": 500,
+    "bytes": 962,
+    "mobileBytes": 898
+  }
+}

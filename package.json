@@ -1,0 +1,10 @@
+{
+  "name": "synthetic-dawn", "version": "0.2.0", "private": true,
+  "type": "module", "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test",
+    "serve": "node scripts/serve.mjs"
+  }
+}
